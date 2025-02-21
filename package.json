@@ -1,0 +1,38 @@
+{
+  "name": "webflow-starter-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Use this template for new Webflow Projects of all kinds. Expand your Webflow project with Vite, Vue, GSAP, Splide, Navigo, and more. Add features on the go.",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "eslint": "eslint --color --ext .html,.js,.json,.jsx,.md,.ts,.tsx *.* src",
+    "eslint:fix": "npm run eslint -- --fix"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3",
+    "vite": "^5.0.8"
+  },
+  "keywords": [
+    "webflow",
+    "slicemedia",
+    "vite",
+    "low-code"
+  ],
+  "author": "Slice Media",
+  "license": "ISC",
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "gsap": "^3.12.5",
+    "navigo": "^8.11.1",
+    "petite-vue": "^0.4.1"
+  }
+}
