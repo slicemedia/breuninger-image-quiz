@@ -30,7 +30,10 @@
   "author": "Slice Media",
   "license": "ISC",
   "dependencies": {
+    "@bugsnag/browser-performance": "^2.11.0",
+    "@bugsnag/js": "^8.2.0",
     "@splidejs/splide": "^4.1.4",
+    "easytimer.js": "^4.6.0",
     "gsap": "^3.12.5",
     "navigo": "^8.11.1",
     "petite-vue": "^0.4.1"
